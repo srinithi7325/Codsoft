@@ -1,68 +1,88 @@
-📌 CodSoft Internship Projects – Python Applications
+# 📌 CodSoft Internship Projects – Python Applications  
 
-This repository contains projects developed during my CodSoft Internship, focusing on Python-based applications, UI development, and basic AI logic.
+This repository contains projects developed during my **CodSoft Internship**, focusing on Python-based applications, UI development, and basic AI concepts.
 
-🚀 Projects Included
-📘 1. Book Recommendation System
+---
 
-An interactive web app built with Streamlit that recommends books based on user preferences.
+## 🚀 Projects Included  
 
-🔹 Features
-User rating system (1–5 scale)
-Genre-based recommendation
-Popularity-based sorting
-Interactive UI
-🛠️ Tech Stack
-Python
-Streamlit
-Pandas
-🎮 2. Tic-Tac-Toe with AI
+### 📘 1. Book Recommendation System  
+An interactive web application built using Streamlit that recommends books based on user ratings and preferences.
 
-A GUI-based Tic-Tac-Toe game where the player competes against an AI.
+#### 🔹 Features
+- Rate books from 1 to 5  
+- Genre-based recommendations  
+- Popularity-based suggestions  
+- Interactive and user-friendly interface  
 
-🔹 Features
-Interactive 3x3 game board
-AI opponent using Minimax algorithm
-Win/tie detection
-Game reset functionality
-🛠️ Tech Stack
-Python
-Tkinter
-🪨 3. Rock-Paper-Scissors Smart AI
+#### 🛠️ Tech Stack
+- Python  
+- Streamlit  
+- Pandas  
 
-A smart AI-based game built using Streamlit with pattern recognition.
+---
 
-🔹 Features
-AI predicts moves based on player history
-Score tracking system
-Win rate calculation
-Interactive charts using Plotly
-🛠️ Tech Stack
-Python
-Streamlit
-Plotly
-NumPy
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/srinithi7325/Codsoft.git
-cd Codsoft
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Run Projects
+### 🎮 2. Tic-Tac-Toe with AI  
+A GUI-based Tic-Tac-Toe game where the user plays against an intelligent AI opponent.
+
+#### 🔹 Features
+- Interactive 3x3 game board  
+- AI opponent using Minimax algorithm  
+- Automatic win/tie detection  
+- Reset functionality  
+
+#### 🛠️ Tech Stack
+- Python  
+- Tkinter  
+
+---
+
+### 🪨 3. Rock-Paper-Scissors Smart AI  
+An advanced Rock-Paper-Scissors game with AI that predicts user moves based on patterns.
+
+#### 🔹 Features
+- Smart AI decision-making based on player history  
+- Score tracking system  
+- Win rate calculation  
+- Data visualization using charts  
+
+#### 🛠️ Tech Stack
+- Python  
+- Streamlit  
+- Plotly  
+- NumPy  
+
+---
+
+#### 2️⃣ Install Dependencies
+pip install streamlit pandas plotly numpy
+
+----
+#### 3️⃣ Run the Projects
+
 ▶️ Book Recommendation System
 streamlit run book_recommendation.py
-▶️ Rock-Paper-Scissors Game
+▶️ Rock-Paper-Scissors Smart AI
 streamlit run rps_ai.py
 ▶️ Tic-Tac-Toe Game
 python tic_tac_toe.py
-📊 Learning Outcomes
-Built interactive Python applications
-Learned Streamlit for web apps
-Implemented AI logic using Minimax
-Improved understanding of user interaction & UI design
+
+------
+
+#### 📊 Learning Outcomes
+
+Developed interactive Python applications
+Learned Streamlit for web-based apps
+Implemented AI logic using Minimax algorithm
+Improved UI/UX and user interaction design
 Gained experience in data handling and visualization
-🔮 Future Improvements
+
+------------
+####🔮 Future Improvements
+
+Deploy applications on cloud platforms (Streamlit Cloud)
+Enhance AI with machine learning models
 Add database integration
-Improve AI with machine learning models
-Deploy apps on cloud platforms
-Enhance UI/UX design
+Improve UI/UX design
+
+------
